@@ -1,0 +1,9 @@
+[setup]
+nixPkgs = ["nodejs_20"]
+
+[build]
+installCommand = "npm ci"
+buildCommand = "npm run build"
+
+[start]
+command = "npm run start"
